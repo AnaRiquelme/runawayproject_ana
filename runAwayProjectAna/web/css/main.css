@@ -1,0 +1,60 @@
+/* 
+    Document   : main.css
+    Created on : 16-dic-2013, 9:53:03
+    Author     : al037793
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body
+{
+    font-family: arial;
+    color: white;
+}
+
+/*Barra de menu horizontal con degradado*/
+.navbar-inverse {
+
+background: -webkit-linear-gradient(blueviolet, blue); /* For Safari */
+background: -o-linear-gradient(blueviolet, blue); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(blueviolet, blue); /* For Firefox 3.6 to 15 */
+background: linear-gradient(blueviolet, blue); /* Standard syntax */
+}
+
+
+/*Logotipo*/
+.navbar-brand {
+float: left;
+padding: 15px 15px;
+font-size: 18px;
+line-height: 20px;
+font-family: verdana;
+font-weight: bold;
+
+}
+
+.navbar-inverse .navbar-brand {
+color: #fff;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+  text-decoration: none;
+ 
+}
+
+/*Recuadro que se muestra cuando un pestaña esta presionada*/
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+color: #ffffff;
+background-color: blue;
+}
+
+.navbar-nav > li > a {
+padding-top: 15px;
+padding-bottom: 6px;
+}
+
+/*Texto del menu*/
+.navbar-inverse .navbar-nav > li > a {
+color: #fff;
+}
+
